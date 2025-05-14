@@ -4,15 +4,16 @@
 
 ##  Структура проекта
 
+```markdown
 hh_project/
-├── docker-compose.yml/ # Конфигурация для Elasticsearch и Kibana
-├── parser_by_id.py # Скрипт парсинга по ID
-├── parser_by_date.py # Скрипт парсинга по дате
-├── auth_hh.py # Авторизация и обновление токенов hh.ru
-├── load_to_elastic.py # Загрузка JSONL-файла в Elasticsearch
-├── full_vacancies_stream.jsonl # Файл с сохранёнными вакансиями
-├── start_services.py # Автоматический запуск Elasticsearch и Kibana
-├── README.md # Этот файл
+├── docker-compose.yml        # Конфигурация для Elasticsearch и Kibana
+├── parser_by_id.py           # Скрипт парсинга по ID
+├── parser_by_date.py         # Скрипт парсинга по дате
+├── auth_hh.py                # Авторизация и обновление токенов hh.ru
+├── load_to_elastic.py       # Загрузка JSONL-файла в Elasticsearch
+├── start_services.py        # Автоматический запуск Elasticsearch и Kibana
+└── README.md                
+```
 
 
 ##  Установка и запуск
