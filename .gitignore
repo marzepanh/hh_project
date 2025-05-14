@@ -1,0 +1,15 @@
+/.env
+/.venv
+/build
+/elasticsearch-7.15.2
+/elasticsearch-7.15.2-windows-x86_64.zip
+/full_vacancies_stream.jsonl
+/kibana-7.15.2-windows-x86_64
+/kibana-7.15.2-windows-x86_64.zip
+/roles_data.json
+/start_services.spec
+/test_script copy.py
+/token.json
+/vacancies_role_96.jsonl
+/__pycache__
+/Курсовое_проектирование_НоДиАБОИ.pdf
