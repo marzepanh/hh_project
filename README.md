@@ -27,19 +27,34 @@ hh_project/
 ```bash
 docker --version
 ```
-3. Запустите инфраструктуру
+### 3. Запустите инфраструктуру
 ```bash
 python start_services.py
 ```
  При первом запуске образы Elasticsearch и Kibana будут загружены (требуется VPN из РФ).
 
-4. Откроются страницы:
+### 4. Откроются страницы
 Elasticsearch: http://localhost:9200
 
 Kibana: http://localhost:5601
 
-Использование
-Авторизация в hh.ru
+### 5. Использование
+
+Для корректной работы проекта необходимо создать файл .env в корневой директории и указать в нём данные вашего OAuth-приложения с HeadHunter:
+
+Создайте файл .env (или скопируйте env.example):
+
+Заполните его следующими значениями:
+
+```ini
+CLIENT_ID=ваш_client_id
+CLIENT_SECRET=ваш_client_secret
+REDIRECT_URI=ваш_url_приложения
+```
+Получить CLIENT_ID и CLIENT_SECRET можно в личном кабинете разработчика HeadHunter.
+
+###  Авторизация в hh.ru
+
 Перед парсингом необходимо пройти авторизацию:
 
 ```bash
